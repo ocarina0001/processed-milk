@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <packageId>ocarina.processedmilk</packageId>
+        <name>Processed Milk</name>
+        <author>Ocarina</author>
+        <supportedVersions>
+            <li>1.3</li>
+        </supportedVersions>
+        <description>Processed milk. Raw milk into something edible.</description>
+</ModMetaData>

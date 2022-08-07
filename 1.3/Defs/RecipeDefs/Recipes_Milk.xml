@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <RecipeDef>
+        <defName>OKA_Make_ProcessedMilk</defName>
+        <label>process milk</label>
+        <description>Process milk.</description>
+        <jobString>Processing milk.</jobString>
+        <workAmount>600</workAmount>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>false</allowMixingIngredients>
+        <recipeUsers>
+            <li>FueledStove</li>
+            <li>ElectricStove</li>
+        </recipeUsers>
+        <ingredients>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>Milk</li>
+              </thingDefs>
+            </filter>
+            <count>2</count>
+          </li>
+        </ingredients>
+        <products>
+          <OKA_ProcessedMilk>1</OKA_ProcessedMilk>
+        </products>
+        <fixedIngredientFilter>
+          <thingDefs>
+            <li>Milk</li>
+          </thingDefs>
+        </fixedIngredientFilter>
+        <defaultIngredientFilter>
+            <thingDefs>
+              <li>Milk</li>
+            </thingDefs>
+        </defaultIngredientFilter>
+        <workSkill>Cooking</workSkill>
+    </RecipeDef>
+
+    <RecipeDef>
+        <defName>OKA_Make_ProcessedMilkBulk</defName>
+        <label>process milk x4</label>
+        <description>Process bulk milk.</description>
+        <jobString>Processing bulk milk.</jobString>
+        <workAmount>2200</workAmount>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>false</allowMixingIngredients>
+        <recipeUsers>
+            <li>FueledStove</li>
+            <li>ElectricStove</li>
+        </recipeUsers>
+        <ingredients>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>Milk</li>
+              </thingDefs>
+            </filter>
+            <count>8</count>
+          </li>
+        </ingredients>
+        <products>
+          <OKA_ProcessedMilk>4</OKA_ProcessedMilk>
+        </products>
+        <fixedIngredientFilter>
+          <thingDefs>
+            <li>Milk</li>
+          </thingDefs>
+        </fixedIngredientFilter>
+        <defaultIngredientFilter>
+            <thingDefs>
+              <li>Milk</li>
+            </thingDefs>
+        </defaultIngredientFilter>
+        <workSkill>Cooking</workSkill>
+    </RecipeDef>
+
+</Defs>

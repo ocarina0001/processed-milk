@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Textures Expanded</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="OKA_ProcessedMilk"]/graphicData/texPath</xpath>
+                    <value>
+                        <texPath>OKA/Things/Item/Resource/ProcessedMilk/VTE</texPath>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>
